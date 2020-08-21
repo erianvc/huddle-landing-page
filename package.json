@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/erianvc/huddle-landing-page.git"
   },
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
     "watch": "postcss src/tailwind.css -o public/global.css -w",
     "build": "cross-env NODE_ENV=production postcss src/tailwind.css -o public/global.css"
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/erianvc/huddle-landing-page#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.7.3"
   }
 }
