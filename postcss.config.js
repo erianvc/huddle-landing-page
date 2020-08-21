@@ -1,6 +1,11 @@
 const tailwindcss = require('tailwindcss')
-const cssnano = require('cssnano')({ preset: 'default' })
-
+const cssnano = require('cssnano')({
+    preset: ['default', {
+        discardComments: {
+            removeAll: true,
+        },
+    }],
+})
 const purgecss = require('@fullhuman/postcss-purgecss')({
     content: ['./public/**/*.html'],
     defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
