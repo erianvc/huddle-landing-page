@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/erianvc/huddle-landing-page#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "postcss-cli": "^7.1.2",
